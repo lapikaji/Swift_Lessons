@@ -49,10 +49,11 @@ class Pizzeria {
     }
 }
 
+let pizzeria = Pizzeria(numberOfTables: 8, seatsPerTable: 4)
+
 let employee1 = Employee(name: "Milojko Spajic", salary: 900.0, position: .cashier)
 let employee2 = Employee(name: "Jakov Milatovic", salary: 1100.0, position: .cook)
 
-let pizzeria = Pizzeria(numberOfTables: 5, seatsPerTable: 4)
 pizzeria.addEmployee(employee1)
 pizzeria.addEmployee(employee2)
 
